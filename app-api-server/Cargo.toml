@@ -1,0 +1,12 @@
+[package]
+name = "app-api-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-cors = { workspace = true }
+actix-web = { workspace = true }
+dotenvy = { workspace = true }
+tokio = { workspace = true }
+
+app-api-schema = { workspace = true }

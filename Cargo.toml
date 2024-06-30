@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = [
+    "app-api-schema",
+    "app-api-server",
+    "app-front-rust",
+]
+
+[workspace.dependencies]
+actix-cors = "0.7.0"
+actix-web = { version = "4.7.0" }
+dotenvy = { version = "0.15.7" }
+gloo-net = "0.5.0"
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = { version = "1.0.117" }
+tokio = { version = "1.38.0", features = ["macros", "rt-multi-thread"] }
+wasm-bindgen = "0.2.74"
+wasm-bindgen-futures = "0.4.42"
+
+app-api-schema = { path = "app-api-schema" }
+app-api-server = { path = "app-api-server" }
+app-front-rust = { path = "app-front-rust" }
