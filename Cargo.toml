@@ -12,7 +12,7 @@ actix-web = { version = "4.7.0" }
 dotenvy = { version = "0.15.7" }
 gloo-net = "0.5.0"
 serde = { version = "1.0.204", features = ["derive"] }
-serde_json = { version = "1.0.120" }
+serde_json = { version = "1.0.121" }
 tokio = { version = "1.39.1", features = ["macros", "rt-multi-thread"] }
 wasm-bindgen = "0.2.74"
 wasm-bindgen-futures = "0.4.42"
