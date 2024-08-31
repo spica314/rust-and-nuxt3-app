@@ -11,7 +11,7 @@ actix-cors = "0.7.0"
 actix-web = { version = "4.9.0" }
 dotenvy = { version = "0.15.7" }
 gloo-net = "0.5.0"
-serde = { version = "1.0.208", features = ["derive"] }
+serde = { version = "1.0.209", features = ["derive"] }
 serde_json = { version = "1.0.127" }
 tokio = { version = "1.39.3", features = ["macros", "rt-multi-thread"] }
 wasm-bindgen = "0.2.74"
