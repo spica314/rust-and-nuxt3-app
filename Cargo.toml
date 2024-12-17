@@ -15,7 +15,7 @@ serde = { version = "1.0.216", features = ["derive"] }
 serde_json = { version = "1.0.133" }
 tokio = { version = "1.42.0", features = ["macros", "rt-multi-thread"] }
 wasm-bindgen = "0.2.99"
-wasm-bindgen-futures = "0.4.45"
+wasm-bindgen-futures = "0.4.49"
 
 app-api-schema = { path = "app-api-schema" }
 app-api-server = { path = "app-api-server" }
