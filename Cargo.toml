@@ -10,7 +10,7 @@ members = [
 actix-cors = "0.7.1"
 actix-web = { version = "4.11.0" }
 dotenvy = { version = "0.15.7" }
-gloo-net = "0.5.0"
+gloo-net = "0.6.0"
 serde = { version = "1.0.219", features = ["derive"] }
 serde_json = { version = "1.0.143" }
 tokio = { version = "1.45.0", features = ["macros", "rt-multi-thread"] }
